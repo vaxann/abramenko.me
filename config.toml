@@ -20,9 +20,9 @@ pygmentsCodeFencesGuessSyntax = true
 [params]
     author = "Ivan Abramenko"
     description = "Ivan Abramenko's personal website"
-    copyright = "Copyright © 2023 Ivan Abramenko, all rights reserved."
-    keywords = "blog,developer,personal,product manager,project manager,teamlead"
-    info = "Team-lead, poduct manager / owner, developer and magician"
+    copyright = "Copyright © 2024 Ivan Abramenko, all rights reserved."
+    keywords = "blog,developer,personal,teamlead,software engineer,product manager"
+    info = "Team-lead, software engineer and magician"
     avatarURL = "images/avatar.jpeg"
     footerContent = "To be continued..."
 
@@ -118,9 +118,9 @@ series = "series"
 
         [languages.ru.params]
             author = "Иван Абраменко"
-            info = "Продакт, тим-лид, разработчик и немного Волшебник"
+            info = "Тим-лид, разработчик и немного Волшебник"
             description = "Персональный сайт Ивана Абраменко"
-            keywords = "блогер,разработчик,персональная страница, продакт менеджер, продуктовый менеджер, проджект менеджер, проектный менеджер, тилид, руководитель команды"
+            keywords = "блогер,разработчик,персональная страница, тилид, руководитель команды, разработчик"
             footerContent = "Продолжение следует..."
 
         [languages.ru.menu]
