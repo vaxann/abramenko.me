@@ -2,15 +2,26 @@
 author = "Ivan Abramenko"
 title = "Experience in software development — 17 years"
 date = "2024-07-21"
+aliases = ["experience"]
 +++
 
 ## Contract / Out-Staff · Full-time · Remote 
 *Aug 2022 - till now*
 
-- Development and supporting of blockchain providers for various blockchain networks: Eth, Base, Matic, Avax, Bts, Xrp, Sol, end etc. <br> *(Node, Express, Web3js, Ether, Tronweb, Redis, etc).*<br> Development of business logic for working with blockchain wallets and accepting deposits<br>*(Python, AsyncIo, MySQL, Rabbit, Solidity)* https://b2broker.com/
-- Contributed to development of cryptocurrency-based transferring & exchange platform Incl. Telegram & WahtsApp bot creation, user wallets on Tron, and etc.<br>*(Node, Strapi, Next, TronWeb, Solidity, MySQL)* https://unisend.me/
-- Development of calculators for supporting sales and distribution of industrial heating systems.<br>*(Python, FastAPI, Vue, MySQL, C#, AutoCad API)* https://sst.ru/
-- IoT Platform in case of motor monitoring systems<br>*(Node, Express, ClickHouse)* http://www.grtcorp.com/
+- Development and supporting of blockchain providers for various blockchain networks: Eth, Base, Matic, Avax, Bts, Xrp, Sol, end etc.  
+  *(Node, Express, Web3js, Ether, Tronweb, Redis, etc).*
+  Development of business logic for working with blockchain wallets and accepting deposits  
+  *(Python, AsyncIo, MySQL, Rabbit, Solidity)*  
+  https://b2broker.com/
+- Contributed to development of cryptocurrency-based transferring & exchange platform Incl. Telegram & WahtsApp bot creation, user wallets on Tron, and etc.  
+  *(Node, Strapi, Next, TronWeb, Solidity, MySQL)*  
+  https://unisend.me/
+- Development of calculators for supporting sales and distribution of industrial heating systems.  
+  *(Python, FastAPI, Vue, MySQL, C#, AutoCad API)*  
+  https://sst.ru/
+- IoT Platform in case of motor monitoring systems  
+  *(Node, Express, ClickHouse)*  
+  http://www.grtcorp.com/
 
 ## Senior Software Engineer Team Lead at [PIK Group](https://en.pik.com/) · Full-time, Moscow · Hybrid 
 *Nov 2021 — Aug 2022*
@@ -19,10 +30,9 @@ Developed a modular building platform (configurator/designer). Established produ
 
 Assembled and hired team, crafted employee roadmaps, and identified and distributed appropriate resources.
 
-Playing coach in the backend 
+Playing coach in the backend
 
 *(Node, Nest, Express, MongoDB, Postgres, RabbitMQ)*
-
 
 ## Senior Project Manager at [SIBUR](http://www.sibur.com/) · Full-time, Moscow · Hybrid
 *Mar 2021 — Oct 2021*
@@ -49,6 +59,7 @@ Developed and implemented SCADA systems, Distribution Management System (DMS), a
 - Generated expansion and efficiency of eight control centers through expanded implementation of newly developed systems.
 
 *(C#, JavaScript, MsMQ, MsSQL)*
+
 ## Leading engineer at [SO UPS](http://www.so-ups.ru/en) · Full-time, Moscow · On-site
 *Apr 2009 - Aug 2011*
 
@@ -60,4 +71,5 @@ PSM Finist Simulator to operate power systems and oversaw the testing of PSM (OT
 *2006 - Apr 2009*
 
 Development of software for modeling of power system operation. Checking it for static and dynamic stability. Calculation of steady-state and transient modes
+
 *(С++, Boost, MsSQL)*

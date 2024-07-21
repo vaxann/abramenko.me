@@ -8,11 +8,11 @@ author = "Ivan Abramenko"
 
 ## Summary:
 
-As an experienced software developer, I have a strong background in product development, team management, and public engagements. I am proficient in designing ontologies, architectures, and implementing various technologies. My demonstrated ability to effectively lead diverse teams, organize and execute keynotes and workshops.
+Experienced Software Engineer leader with strong product planning and team management skills. Proven success in development of products ranging across various industries and utilizing numerous programming languages and software. Success-focused with track record of efficiently managing client and product relationships to ensure optimal product functionality. Bilingual (English and Russian) and exceptionally skilled in Node.js, Python, SQL/NoSQL, Blockchain and CI/CD.
 
 ## Education
 
-Year  | University                                                            | Institute, Faculty
+Year | University                                                            | Institute, Faculty
 -----|-----------------------------------------------------------------------|---------------------------------
 2009 | __Moscow Power Engineering Institute (National Research University)__ | Moscow Institute of Electrical Power Engineering, Electrical power systems and grids (Bachelor, Master)
 2016 | __Vladimir Stoletovs State University__                               | Functional Analysis and Its Applications (graduate school), Remote control of distributed power systems (PHD)
@@ -28,10 +28,10 @@ Year  | Course
 
 
 ## Hobby is development pet-projects in a field of:
-- Development of systems for online sales and online-stores
-- Home automation and IoT, development of Telegram bot for intelligent management of media resources at home
+Home automation and IoT, as well as the development of a Telegram bot for intelligent management of media resources at home.
+Business processes and working tools are some of the things I like to automate and optimize.
 
-I like to automate and optimize "everything" from business processes and working tools to everyday tasks.
+Non-technical hobbies: I enjoy crossfit, skiing, surfing, biking, and anything that gets my head moving.
 
 # Languages
 - Russian — Native
