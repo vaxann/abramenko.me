@@ -20,12 +20,6 @@ git clone https://github.com/vaxann/abramenko.me.git
 cd abramenko.me
 ```
 
-2. Initialize and update the Hugo theme submodule:
-
-```bash
-git submodule update --init --recursive
-```
-
 ### Running Locally
 
 To start a local development server with live-reload:
@@ -89,7 +83,7 @@ When deploying to DigitalOcean, the application uses pre-compiled CSS files inst
 - `content/ru/` - Russian content files
 - `static/` - Static files like images, CSS, etc.
 - `layouts/` - Custom layout templates
-- `themes/hugo-coder/` - The Hugo theme
+- `themes/hugo-coder/` - The Hugo theme (included directly, not as a submodule)
 - `config.toml` - Main site configuration
 - `static/css-precompiled/` - Pre-compiled CSS files for deployment
 
