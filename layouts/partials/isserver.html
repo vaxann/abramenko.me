@@ -1,0 +1,6 @@
+{{ $ := . }}
+{{ $isServer := false }}
+{{ with site }}
+  {{ $isServer = false }}
+{{ end }}
+{{ return $isServer }}
