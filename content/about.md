@@ -25,7 +25,7 @@ Year  | Course
 2018 | __State University of Management__ , Personal and professional qualities of a manager (soft-skills)
 2019 | __Neural university__ neural-university.ru, Neural Networks in Python
 2021 | __Skill Factory__ skillfactory.ru, iOS-Developer
-
+2025 | [Scaled Agile Framework (__SAFe__)](/files/PrintAchievement_IvanAbramenko.pdf)
 
 ## Hobby is development pet-projects in a field of:
 Home automation and IoT, as well as the development of a Telegram bot for intelligent management of media resources at home.
@@ -129,7 +129,7 @@ Non-technical hobbies: I enjoy crossfit, skiing, surfing, biking, and anything t
 
 ## Industry Specific Skills:
 - Power System simulation and modeling
-- E-learning system 
+- E-learning system
 - SAP integration
 - IIoT & Metering
 - Renewables (PV, Wind, ESS, etc.)
@@ -137,7 +137,5 @@ Non-technical hobbies: I enjoy crossfit, skiing, surfing, biking, and anything t
 - SCADA systems development and implementation
   - Building Energy Management Systems (BMS)
   - Energy Management Systems (EMS)
-  - Distribution Management System (DMS) 
-  - Outage Management System (OMS) 
-
-
+  - Distribution Management System (DMS)
+  - Outage Management System (OMS)

@@ -22,7 +22,7 @@ pygmentsCodeFencesGuessSyntax = true
     description = "Ivan Abramenko's personal website"
     copyright = "Copyright © 2024 Ivan Abramenko, all rights reserved."
     keywords = "blog,developer,personal,teamlead,software engineer,product manager"
-    info = "Team-lead, software engineer and magician"
+    info = "Senior software engineer and magician"
     avatarURL = "images/avatar.jpeg"
     footerContent = "To be continued..."
 
@@ -80,7 +80,7 @@ series = "series"
     name = "Telegram"
     icon = "fa fa-telegram"
     weight = 3
-    url = "https://telegram.me/vaxann"  
+    url = "https://telegram.me/vaxann"
 
 [languages]
     [languages.en]
@@ -118,7 +118,7 @@ series = "series"
 
         [languages.ru.params]
             author = "Иван Абраменко"
-            info = "Тим-лид, разработчик и немного Волшебник"
+            info = "Разработчик и немного Волшебник"
             description = "Персональный сайт Ивана Абраменко"
             keywords = "блогер,разработчик,персональная страница, тилид, руководитель команды, разработчик"
             footerContent = "Продолжение следует..."

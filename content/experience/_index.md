@@ -30,7 +30,7 @@ aliases = ["experience"]
 }
 </style>
 
-## Blockchain stream-lead at <a href="https://b2brocker.com/" target="_blank">B2Brocker</a>
+## Blockchain stream-lead at <a href="https://b2brocker.com/" target="_blank">B2Brocker</a> · Full-time, Belgrade · Remote
 *Aug 2023 — Present*
 
 Developing a Leading Crypto Processing & Blockchain Wallets Provider (https://b2binpay.com/)
@@ -48,9 +48,7 @@ Developing a Leading Crypto Processing & Blockchain Wallets Provider (https://b2
 - Development of calculators for supporting sales and distribution of industrial heating systems. (Python, FastAPI, Vue, MySQL, C#, AutoCad API)
 - IoT Platform in case of motor monitoring systems (Node, Express, ClickHouse)
 
-## Senior Software Engineer Team Lead at <a href="https://en.pik.com/" target="_blank">PIK Group</a>
-
-Full-time, Moscow · Hybrid
+## Senior Software Engineer Team Lead at <a href="https://en.pik.com/" target="_blank">PIK Group</a> · Full-time, Moscow · Hybrid
 
 *Nov 2021 — Aug 2022*
 
