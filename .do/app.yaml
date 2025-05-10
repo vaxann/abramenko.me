@@ -1,14 +1,14 @@
 name: abramenko.me
 static_sites:
-    - build_command: rm -r ./public; hugo --destination ./public
+    - build_command: |-
+        apt-get update && apt-get install -y curl
+        curl -L https://github.com/gohugoio/hugo/releases/download/v0.147.2/hugo_extended_0.147.2_linux-amd64.deb -o hugo.deb
+        dpkg -i hugo.deb
+        rm -r ./public || true
+        hugo --destination ./public
       environment_slug: hugo
       github:
           branch: main
           deploy_on_push: true
           repo: vaxann/abramenko.me
       name: abramenko.me
-      envs:
-        - key: HUGO_VERSION
-          value: 0.147.2
-        - key: HUGO_EXTENDED
-          value: 1
