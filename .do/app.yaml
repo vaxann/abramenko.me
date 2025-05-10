@@ -2,12 +2,13 @@ name: abramenko.me
 static_sites:
     - build_command: rm -r ./public; hugo --destination ./public
       environment_slug: hugo
-      envs:
-          - key: HUGO_VERSION
-            scope: BUILD_TIME
-            value: 0.92.0
       github:
           branch: main
           deploy_on_push: true
           repo: vaxann/abramenko.me
       name: abramenko.me
+      env:
+        - key: HUGO_VERSION
+          value: 0.147.2
+        - key: HUGO_EXTENDED
+          value: true
