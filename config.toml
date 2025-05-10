@@ -6,7 +6,8 @@ title = "Ivan Abramenko"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-paginate = 20
+[pagination]
+  pagerSize = 20
 
 pygmentsStyle = "b2"
 pygmentsCodeFences = true
