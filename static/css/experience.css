@@ -1,0 +1,38 @@
+/* Specific styles for the experience page content lists only */
+
+/* Only target lists in the main content area */
+.content article ul:not(.pagination):not(.social) {
+  list-style-type: disc !important;
+  margin-left: 2em !important;
+  padding-left: 1em !important;
+}
+
+.content article ul:not(.pagination):not(.social) li {
+  display: list-item !important;
+  list-style-position: outside !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* Reset navigation, social, etc. lists */
+.navigation ul,
+.about ul,
+.social ul,
+.pagination ul,
+header ul,
+footer ul,
+nav ul {
+  list-style-type: none !important;
+  margin-left: initial !important;
+  padding-left: initial !important;
+}
+
+.navigation ul li,
+.about ul li, 
+.social ul li,
+.pagination ul li,
+header ul li,
+footer ul li,
+nav ul li {
+  display: inline-block !important;
+  list-style-type: none !important;
+}

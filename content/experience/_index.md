@@ -5,14 +5,45 @@ date = "2024-07-21"
 aliases = ["experience"]
 +++
 
-## NDA · Full-time · Remote
+<style>
+/* Target only content lists within the experience page */
+.content article ul {
+  list-style-type: disc !important;
+  margin-left: 2em !important;
+  padding-left: 1em !important;
+}
+.content article ul li {
+  display: list-item !important;
+  list-style-position: outside !important;
+  margin-bottom: 0.5em !important;
+}
 
-*Aug 2022 - till now*
+/* Reset menu and navigation lists */
+.navigation ul, .about ul, header ul, footer ul, nav ul {
+  list-style-type: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.navigation li, .about li, header li, footer li, nav li {
+  display: inline-block !important;
+  list-style-type: none !important;
+}
+</style>
 
-Collaborate with clients to determine product needs, create project plans, establish microservices architectures, and select technology stack.
+## Blockchain stream-lead at <a href="https://b2brocker.com/" target="_blank">B2Brocker</a>
+*Aug 2023 — Present*
+
+Developing a Leading Crypto Processing & Blockchain Wallets Provider (https://b2binpay.com/)
+
 - Development and supporting of blockchain providers for various blockchain networks: Eth, Base, Matic, Avax, Bts, Xrp, Sol, end etc., (Node, Express, Web3js, Ether, Tronweb, Redis, etc,)
 - Development and supporting of blockchain providers and smart contracts for Solana (GO, Rust)
 - Development of business logic for working with blockchain wallets and accepting deposits (Python, AsyncIo, MySQL, Rabbit, Solidity)
+- Improving the reliability and performance of applications to support a large number of users (Locust)
+
+## Senior Software Engineer at NDA · Full-time · Remote
+
+*Aug 2022 - Aug 2023*
+
 - Contributed to development of cryptocurrency-based transfering & exchange platform Incl. Telegram & WahtsApp bot creation, user wallets on Tron, and etc. (Node, Strapi, Next, TronWeb, Solidity, MySQL)
 - Development of calculators for supporting sales and distribution of industrial heating systems. (Python, FastAPI, Vue, MySQL, C#, AutoCad API)
 - IoT Platform in case of motor monitoring systems (Node, Express, ClickHouse)
@@ -23,11 +54,9 @@ Full-time, Moscow · Hybrid
 
 *Nov 2021 — Aug 2022*
 
-Developed a modular building platform (configurator/designer). Established product vision, selected necessary technology stack, and organized the Agile/Scrum process for team success.
-
-Assembled and hired team, crafted employee roadmaps, and identified and distributed appropriate resources.
-
-Playing coach in the backend
+- Developed a modular building platform (configurator/designer). Established product vision, selected necessary technology stack, and organized the Agile/Scrum process for team success.
+- Assembled and hired team, crafted employee roadmaps, and identified and distributed appropriate resources.
+- Playing coach in the backend
 
 *(Node, Nest, Express, MongoDB, Postgres, RabbitMQ)*
 
@@ -60,9 +89,10 @@ Developed and implemented SCADA systems, Distribution Management System (DMS), a
 ## Leading engineer at <a href="https://www.so-ups.ru/en/" target="_blank">SO UPS</a> · Full-time, Moscow · On-site
 *Apr 2009 - Aug 2011*
 
-PSM Finist Simulator to operate power systems and oversaw the testing of PSM (OTS) for SCADA/EMS. Developing monitored power system models through frequent development and maintenance of interfaces.
+- PSM Finist Simulator to operate power systems and oversaw the testing of PSM (OTS) for SCADA/EMS.
+- Developing monitored power system models through frequent development and maintenance of interfaces.
 
-*(C#, PHP, UML, MsSQL)*
+*(C#, UML, MsSQL)*
 
 ## C++ Developer at <a href="https://www.ntc-power.ru/" target="_blank">VNIIE</a> · Part-time, Moscow · On-site
 *2006 - Apr 2009*

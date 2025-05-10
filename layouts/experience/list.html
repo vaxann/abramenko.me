@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <h1 class="title">{{ .Title }}</h1>
+
+    <style>
+      /* Inline styles to force bullet points to show */
+      ul {
+        list-style-type: disc !important;
+        margin-left: 2em !important;
+        padding-left: 1em !important;
+      }
+      li {
+        display: list-item !important;
+        list-style-position: outside !important;
+        margin-bottom: 0.5em !important;
+      }
+    </style>
+
+    {{ .Content }}
+  </section>
+{{ end }}

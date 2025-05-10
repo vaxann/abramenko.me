@@ -1,0 +1,48 @@
+/* Targeted bullet point fix - only for content on experience page */
+
+/* Target only the lists within the experience page content */
+body[data-url^="/experience"] .content article ul,
+.content article ul {
+  list-style-type: disc !important;
+  margin-left: 25px !important;
+  padding-left: 15px !important;
+}
+
+body[data-url^="/experience"] .content article ul li,
+.content article ul li {
+  display: list-item !important;
+  list-style-position: outside !important;
+  list-style-type: disc !important;
+  margin-left: 5px !important;
+  padding-left: 5px !important;
+  margin-bottom: 10px !important;
+}
+
+/* Explicitly exclude navigation and social media lists */
+.navigation ul,
+.navigation ul li,
+.social-links ul,
+.social-links ul li,
+.about ul,
+.about ul li,
+header ul,
+header ul li,
+footer ul,
+footer ul li,
+nav ul,
+nav ul li {
+  list-style-type: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  display: inline-block !important;
+}
+
+/* Additional specificity to target only article content lists */
+.content article:not(.navigation):not(.social-links):not(.about) ul {
+  list-style-type: disc !important;
+}
+
+.content article:not(.navigation):not(.social-links):not(.about) ul li {
+  display: list-item !important;
+  list-style-type: disc !important;
+}

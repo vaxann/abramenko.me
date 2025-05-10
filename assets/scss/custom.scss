@@ -1,0 +1,46 @@
+/* Custom styles with proper targeting */
+
+/* Content article lists should have bullets */
+.content article > ul {
+  list-style-type: disc;
+  margin-left: 2em;
+  padding-left: 1em;
+  
+  li {
+    display: list-item;
+    list-style-position: outside;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* But navigation, social, etc. lists should NOT have bullets */
+.navigation ul,
+.about ul,
+.social-links ul,
+.pagination,
+header ul,
+footer ul,
+nav ul {
+  list-style-type: none;
+  margin-left: initial;
+  padding-left: initial;
+  
+  li {
+    display: inline-block;
+    list-style-type: none;
+  }
+}
+
+/* Fix for headings with links */
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Ensure home page about section remains centered */
+.about h1, .about h2 {
+  display: block;
+  text-align: center;
+}

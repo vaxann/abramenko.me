@@ -44,10 +44,10 @@ pygmentsCodeFencesGuessSyntax = true
     enableTwemoji = true
 
     # Custom CSS
-    customCSS = ["css/custom.css"]
+    customCSS = ["css/custom.css", "css/experience.css", "css/bullet-fix.css"]
 
     # Custom SCSS
-    customSCSS = []
+    customSCSS = ["scss/custom.scss"]
 
     # Custom JS
     customJS = []
