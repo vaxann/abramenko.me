@@ -44,7 +44,7 @@ pygmentsCodeFencesGuessSyntax = true
     enableTwemoji = true
 
     # Custom CSS
-    customCSS = []
+    customCSS = ["css/custom.css"]
 
     # Custom SCSS
     customSCSS = []

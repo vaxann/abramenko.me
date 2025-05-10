@@ -1,0 +1,31 @@
+ {{ if .Site.Params.customCSS }}
+  {{ range .Site.Params.customCSS }}
+    {{ if resources.Get . }}
+      {{ $styles := resources.Get . }}
+      {{ if $styles }}
+        {{ $styles = $styles | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
+      {{ else }}
+        <link rel="stylesheet" href="{{ . | relURL }}" media="screen" />
+      {{ end }}
+    {{ else }}
+      <link rel="stylesheet" href="{{ . | relURL }}" media="screen" />
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if .Site.Params.customSCSS }}
+  {{ range .Site.Params.customSCSS }}
+    {{ if resources.Get . }}
+      {{ $styles := resources.Get . }}
+      {{ if $styles }}
+        {{ $styles = $styles | toCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
+      {{ else }}
+        <link rel="stylesheet" href="{{ . | relURL }}" media="screen" />
+      {{ end }}
+    {{ else }}
+      <link rel="stylesheet" href="{{ . | relURL }}" media="screen" />
+    {{ end }}
+  {{ end }}
+{{ end }}

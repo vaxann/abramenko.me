@@ -1,0 +1,41 @@
+/* Fix for headings with links in experience section */
+
+/* Adjust headings in content to have proper display */
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Make links inside headings inline */
+#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a {
+  display: inline !important;
+}
+
+/* Style heading anchor links */
+.heading-link {
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+
+/* Show heading links on hover */
+#content h1:hover .heading-link,
+#content h2:hover .heading-link,
+#content h3:hover .heading-link,
+#content h4:hover .heading-link,
+#content h5:hover .heading-link,
+#content h6:hover .heading-link {
+  visibility: visible;
+}
+
+/* Add extra space after links */
+#content h2 a:not(.heading-link) {
+  padding-right: 0.3rem;
+}
+
+/* Ensure home page about section remains centered */
+.about h1, .about h2 {
+  display: block;
+  text-align: center;
+}
