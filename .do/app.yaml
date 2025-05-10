@@ -7,8 +7,8 @@ static_sites:
           deploy_on_push: true
           repo: vaxann/abramenko.me
       name: abramenko.me
-      env:
+      envs:
         - key: HUGO_VERSION
           value: 0.147.2
         - key: HUGO_EXTENDED
-          value: true
+          value: 1
