@@ -63,6 +63,8 @@ Non-technical hobbies: I enjoy crossfit, skiing, surfing, biking, and anything t
   - NodeJS: (Express, Nest, Mongoose, Prism, Strapi)
   - React (Next), Vue, Angular, SVG, Canvas
 - Python (FastApi, Django, Pydantic, SQLAlchemy)
+- Go (high-load applications, blockchain providers, performance optimization)
+- Rust (smart contracts for Solana, secure distributed systems)
 - NoSQL (Mongo, LevelDb)
 - SQL (MySQL, MsSQL, Postgres, Vertica, ClickHouse)
 - Solidity (TRC20, ERC20 contracts)
