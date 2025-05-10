@@ -1,44 +1,98 @@
-# Getting Started #
+# Ivan Abramenko - Personal Website
 
-These steps will get this sample application running for you using DigitalOcean.
+This repository contains a personal website for Ivan Abramenko built with Hugo, a static site generator. The site is multilingual (English and Russian) and uses the "hugo-coder" theme.
 
-**Note: Following these steps will result in charges for the use of DigitalOcean services**
+## Installation
 
-## Requirements
+### Prerequisites
 
-* You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
-    
-## Forking the Sample App Source Code
+To run this project locally, you'll need to have the following installed:
 
-To use all the features of App Platform, you need to be running against your own copy of this application. To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own app (see [Github documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) to learn more about forking repos.
+- [Hugo Extended](https://gohugo.io/installation/) (version 0.147.2 or newer)
+- Git
 
-After forking the repo, you should now be viewing this README in your own github org (e.g. `https://github.com/<your-org>/sample-hugo`)
+### Setup Instructions
 
-**Note:** You can skip forking this repo and select the "Hugo" sample from the app creation page, however do notice that certain features will be disabled.
+1. Clone the repository:
 
-## Deploying the App ##
+```bash
+git clone https://github.com/vaxann/abramenko.me.git
+cd abramenko.me
+```
 
-Click this button to deploy the app to the DigitalOcean App Platform.
+2. Initialize and update the Hugo theme submodule:
 
- [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sample-hugo/tree/main)
+```bash
+git submodule update --init --recursive
+```
 
-## Making Changes to Your App ##
+### Running Locally
 
-As long as you left the default Autodeploy option enabled when you first launched this app, you can now make code changes and see them automatically reflected in your live application. During these automatic deployments, your application will never pause or stop serving request because the App Platform offers zero-downtime deployments.
+To start a local development server with live-reload:
 
-## Learn More ##
+```bash
+hugo server -D
+```
 
-You can learn more about the App Platform and how to manage and update your application at https://www.digitalocean.com/docs/app-platform/.
+This will make the site available at [http://localhost:1313](http://localhost:1313). The `-D` flag includes draft content.
 
+### Building the Site
 
-## Deleting the App #
+To build the static site for production:
 
-When you no longer need this sample application running live, you can delete it by following these steps:
-1. Visit the Apps control panel at https://cloud.digitalocean.com/apps
-1. Navigate to the sample-hugo app
-1. Choose "Settings"->"Destroy"
+```bash
+hugo --minify
+```
 
-This will delete the app and destroy any underlying DigitalOcean resources
+This will generate optimized files in the `public` directory.
 
-**Note: If you don't delete your app, charges for the use of DigitalOcean services will continue to accrue.**
+## Multilingual Support
 
+The site supports both English and Russian:
+
+- English content is in the `content/` directory
+- Russian content is in the `content/ru/` directory
+
+## Adding Content
+
+To add a new page:
+
+```bash
+# English version
+hugo new content/pagename.md
+
+# Russian version
+hugo new content/ru/pagename.ru.md
+```
+
+## CSS Processing 
+
+This project uses SCSS for styling. The repository contains pre-compiled CSS files in the `static/css-precompiled/` directory to support deployment on platforms that don't have Hugo Extended version available.
+
+If you modify any SCSS files, you'll need to:
+
+1. Rebuild locally with Hugo Extended
+2. Copy the generated CSS files to the `static/css-precompiled/` directory
+3. Commit these changes to the repository
+
+## Deployment
+
+### DigitalOcean App Platform
+
+This project is configured to deploy automatically to DigitalOcean App Platform. The configuration is in the `.do/app.yaml` file.
+
+When deploying to DigitalOcean, the application uses pre-compiled CSS files instead of requiring the Hugo Extended version.
+
+## Project Structure
+
+- `content/` - The main content files (English)
+- `content/ru/` - Russian content files
+- `static/` - Static files like images, CSS, etc.
+- `layouts/` - Custom layout templates
+- `themes/hugo-coder/` - The Hugo theme
+- `config.toml` - Main site configuration
+- `static/css-precompiled/` - Pre-compiled CSS files for deployment
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
